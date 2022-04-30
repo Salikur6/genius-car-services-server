@@ -10,6 +10,7 @@ const { send } = require('express/lib/response');
 
 // middlewere
 app.use(cors());
+
 app.use(express.json());
 
 
